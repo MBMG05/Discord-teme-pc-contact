@@ -1,0 +1,117 @@
+body{
+    height: 100vh;
+    background-color: #36393F;
+     display: block;
+     margin: 0px;
+
+}
+
+.title-perfil{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 15%;
+}
+
+.cuerpo-fondo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20vh;
+    background-image: url(wallpaper.png);
+    width: 75%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 20% 20%  130%;
+    z-index: 100;
+}
+
+.foto-perfil-ghost{
+    margin-top: 8%;
+    margin-left: 18%;
+    position: absolute;
+    background-color: #18191C;
+    padding: 1%;
+    border-radius: 200px;
+    float: left;
+}
+
+.perfil-title{
+    color: white;
+    margin-left:25% ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.perfil-title-grey{
+    color: #2F3136;
+    padding-left: 1%;
+}
+
+.cuerpo-central{
+    border-top: 2vw #18191C solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 59% ;
+    max-height: 70%;
+    width: 75%;
+    max-width: 75%;
+    background-color: #18191C;
+    z-index: 100;
+
+}
+
+
+
+h3{
+    padding-left: 2%;
+    font-size: large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #8E9297;
+}
+h4{
+    padding-left: 2%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.gris-i{
+    padding-left: 2%;
+    color: #AFB1B4;
+}
+
+.cuadro-info{
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    width: 70%;
+    height: 40%;
+    background-color:#2F3136 ;
+    margin-top: 3%;
+    margin-left: 3%;
+
+} 
+
+.hr-foteer{
+    margin: none;
+}
+
+.pie-de-pagina-final{
+    padding: 2%;
+    color: rgba(0, 0, 0, 0.281);
+    background-color: white;
+    height: 7vmax;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/wallpaper.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.foooter-center{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: black;
+}
